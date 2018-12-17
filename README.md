@@ -62,8 +62,11 @@ npm install --save vue-lottie
     },
     data() {
       return {
-        defaultOptions: {animationData: animationData},
-        animationSpeed: 1
+        defaultOptions: {
+            animationData: animationData,
+            animationSpeed: 1
+        },
+        anim : null
       }
     },
     methods: {
